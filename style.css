@@ -1,18 +1,25 @@
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
+    background-image:linear-gradient(to left,rgb(42, 42, 205),rgb(56, 172, 222));
+    font-size: large;
 }
 .game-box{
     text-align: center;
+    
+    
 }
 .row{
-    padding-bottom: 10px;
-    padding-top: 10px;
+   padding: 2.5px;
+    
 }
 .buttons{
+
+    align-items: center;
     display: inline;
     border-style: dashed;
-    padding-left: 20px;
-    padding-right: 20px;
+    border-width: 1px;
+    padding:40px;
+    background-color: aquamarine;
     
 }
