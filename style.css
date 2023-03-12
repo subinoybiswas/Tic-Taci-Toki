@@ -1,0 +1,18 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+.game-box{
+    text-align: center;
+}
+.row{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.buttons{
+    display: inline;
+    border-style: dashed;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
