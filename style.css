@@ -16,40 +16,23 @@ body {
 }
 .buttons {
   align-items: center;
-  display: inline;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 90px;
+  display: inline-block;
+  width: 90px;
+  height: 90px;
   border-style: dashed;
   border-width: 1px;
-  padding: 40px;
+  padding: 0px;
   background-color: aquamarine;
-}
-.cont1 {
-  position: absolute;
-  top: 100px;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-weight: bold;
-  font-size: large;
-
-}
-.cont2 {
-  position: absolute;
-  top: 185px;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-weight: bold;
-  font-size: large;
-}
-.cont3 {
-  position: absolute;
-  top: 267px;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-weight: bold;
-  font-size: large;
+  user-select: none;
 }
 .heading {
   text-align: center;
   font-size: 250%;
-  
 }
 
-.buttons:hover {background-color: #48c44c}
-
-
+.buttons:hover {
+  background-color: rgb(50, 230, 50);
+}
