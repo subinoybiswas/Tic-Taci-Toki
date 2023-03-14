@@ -76,7 +76,7 @@ function judge() {
       buttons[6].innerHTML == "O")
   ) {
     alert("O Won!");
-  } else if (count==8){
+  } else if (count==9){
     alert("It's a Tie!");
   }
 }
