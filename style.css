@@ -10,6 +10,9 @@ body {
 }
 .game-box {
   text-align: center;
+  align-items: center;
+ 
+  
 }
 .row {
   padding: 2.5px;
