@@ -1,25 +1,55 @@
-body{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: center;
-    background-image:linear-gradient(to left,rgb(42, 42, 205),rgb(56, 172, 222));
-    font-size: large;
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  background-image: linear-gradient(
+    to left,
+    rgb(42, 42, 205),
+    rgb(56, 172, 222)
+  );
+  font-size: large;
 }
-.game-box{
-    text-align: center;
-    
-    
+.game-box {
+  text-align: center;
 }
-.row{
-   padding: 2.5px;
-    
+.row {
+  padding: 2.5px;
 }
-.buttons{
+.buttons {
+  align-items: center;
+  display: inline;
+  border-style: dashed;
+  border-width: 1px;
+  padding: 40px;
+  background-color: aquamarine;
+}
+.cont1 {
+  position: absolute;
+  top: 100px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  font-size: large;
 
-    align-items: center;
-    display: inline;
-    border-style: dashed;
-    border-width: 1px;
-    padding:40px;
-    background-color: aquamarine;
-    
 }
+.cont2 {
+  position: absolute;
+  top: 185px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  font-size: large;
+}
+.cont3 {
+  position: absolute;
+  top: 267px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  font-size: large;
+}
+.heading {
+  text-align: center;
+  font-size: 250%;
+  
+}
+
+.buttons:hover {background-color: #48c44c}
+
+
