@@ -1,4 +1,14 @@
 var buttons = document.getElementsByClassName("buttons");
+var restart = document.getElementById("rs");
+function reset() {
+  console.log("Called");
+  for (i = 0; i < 9; i++) {
+    console.log("Heu");
+    buttons[i].innerHTML = "";
+    count = 0;
+  }
+  first();
+}
 first();
 var count = 0;
 console.log(buttons);
@@ -76,7 +86,7 @@ function judge() {
       buttons[6].innerHTML == "O")
   ) {
     alert("O Won!");
-  } else if (count==9){
+  } else if (count == 9) {
     alert("It's a Tie!");
   }
 }
@@ -106,7 +116,6 @@ function somefunc(x) {
   }
 }
 
-var clicked = [];
 function main() {
   buttons[0].onclick = () => {
     somefunc(0);
@@ -134,5 +143,9 @@ function main() {
   };
   buttons[8].onclick = () => {
     somefunc(8);
+  };
+  restart.onclick = () => {
+    console.log("Clicked");
+    reset();
   };
 }

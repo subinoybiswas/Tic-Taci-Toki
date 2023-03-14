@@ -11,8 +11,10 @@ body {
 .game-box {
   text-align: center;
   align-items: center;
- 
-  
+  position: fixed;
+  top:25%;
+  left: 10%;
+  right: 10%;
 }
 .row {
   padding: 2.5px;
@@ -38,4 +40,19 @@ body {
 
 .buttons:hover {
   background-color: rgb(50, 230, 50);
+}
+.restart{
+  padding-top: 20px;
+  background-color: rgb(0, 243, 243);
+  width: 90px;
+  height: 20px;
+  align-items: center;
+  text-align: center;
+  display: inline-block;
+  padding: 20px;
+  border-radius: 20px;
+  border-style: dotted;
+}
+.restart-div{
+  padding: 20px;
 }
