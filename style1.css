@@ -1,0 +1,21 @@
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  background-image: linear-gradient(to left, aquamarine, rgb(11, 70, 50));
+}
+
+.menu {
+  vertical-align: middle;
+  align-items: center;
+}
+.op {
+  background-color: rgb(31, 161, 161);
+  padding: 20px;
+  border-style: dashed;
+  display: inline-block;
+  vertical-align: middle;
+  height: 20px;
+  width: 70px;
+  vertical-align: middle;
+  align-items: center;
+}
