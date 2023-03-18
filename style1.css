@@ -1,7 +1,11 @@
 body {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   text-align: center;
-  background-image: linear-gradient(to left, aquamarine, rgb(11, 70, 50));
+  background-image:linear-gradient(
+    to left,
+    rgb(42, 42, 205),
+    rgb(56, 172, 222)
+  );
   display: flex;
   justify-content: center;
   display: flex;
@@ -16,7 +20,7 @@ body {
   
 }
 .op {
-  background-color: rgb(31, 161, 161);
+  background-color: aquamarine;
   padding: 20px;
   border-style: dashed;
   margin-left: 2%;
