@@ -1,5 +1,9 @@
 var buttons = document.getElementsByClassName("buttons");
 var restart = document.getElementById("rs");
+var result = document.getElementsByClassName("nortification");
+var ntext = document.getElementsByClassName("norti-text");
+var rexitt = document.getElementsByClassName("rexit");
+
 function reset() {
   console.log("Called");
   for (i = 0; i < 9; i++) {
@@ -31,7 +35,8 @@ function judge() {
       buttons[7].innerHTML == "X" &&
       buttons[8].innerHTML == "X")
   ) {
-    alert("X Won!");
+    ntext[0].innerHTML = "X Won";
+    result[0].style.visibility = "visible";
   } else if (
     (buttons[0].innerHTML == "X" &&
       buttons[3].innerHTML == "X" &&
@@ -43,7 +48,8 @@ function judge() {
       buttons[5].innerHTML == "X" &&
       buttons[8].innerHTML == "X")
   ) {
-    alert("X Won!");
+    ntext[0].innerHTML = "X Won";
+    result[0].style.visibility = "visible";
   } else if (
     (buttons[0].innerHTML == "X" &&
       buttons[4].innerHTML == "X" &&
@@ -52,7 +58,8 @@ function judge() {
       buttons[4].innerHTML == "X" &&
       buttons[6].innerHTML == "X")
   ) {
-    alert("X Won!");
+    ntext[0].innerHTML = "X Won";
+    result[0].style.visibility = "visible";
   } else if (
     (buttons[0].innerHTML == "O" &&
       buttons[3].innerHTML == "O" &&
@@ -64,7 +71,8 @@ function judge() {
       buttons[5].innerHTML == "O" &&
       buttons[8].innerHTML == "O")
   ) {
-    alert("O Won!");
+    ntext[0].innerHTML = "O Won";
+    result[0].style.visibility = "visible";
   } else if (
     (buttons[0].innerHTML == "O" &&
       buttons[1].innerHTML == "O" &&
@@ -73,10 +81,11 @@ function judge() {
       buttons[4].innerHTML == "O" &&
       buttons[5].innerHTML == "O") ||
     (buttons[6].innerHTML == "O" &&
-      buttons[6].innerHTML == "O" &&
+      buttons[7].innerHTML == "O" &&
       buttons[8].innerHTML == "O")
   ) {
-    alert("O Won!");
+    ntext[0].innerHTML = "O Won";
+    result[0].style.visibility = "visible";
   } else if (
     (buttons[0].innerHTML == "O" &&
       buttons[4].innerHTML == "O" &&
@@ -85,9 +94,11 @@ function judge() {
       buttons[4].innerHTML == "O" &&
       buttons[6].innerHTML == "O")
   ) {
-    alert("O Won!");
+    ntext[0].innerHTML = "O Won";
+    result[0].style.visibility = "visible";
   } else if (count == 9) {
-    alert("It's a Tie!");
+    ntext[0].innerHTML = "It's a Tie!";
+    result[0].style.visibility = "visible";
   }
 }
 
@@ -149,3 +160,6 @@ function main() {
     reset();
   };
 }
+rexitt[0].onclick = () => {
+  result[0].style.visibility = "hidden";
+};
