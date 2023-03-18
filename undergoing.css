@@ -1,0 +1,24 @@
+body {
+  background-image: linear-gradient(
+    to left,
+    rgb(42, 42, 205),
+    rgb(56, 172, 222)
+  );
+  align-items: center;
+  text-align: center;
+  font-size: 240%;
+  font-style: initial;
+}
+.all {
+  display: block;
+  align-items: center;
+  margin-top: 20%;
+}
+.image {
+  align-self: center;
+}
+img {
+  background-color: aliceblue;
+  border-radius: 90%;
+  margin-top: 10px;
+}
