@@ -2,25 +2,35 @@ body {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   text-align: center;
   background-image: linear-gradient(to left, aquamarine, rgb(11, 70, 50));
-  align-items: center;
+  display: flex;
+  justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .menu {
-  align-items: center;
+
   display: flex;
   justify-content: center;
+  padding-top: 20%;
   
 }
 .op {
   background-color: rgb(31, 161, 161);
   padding: 20px;
   border-style: dashed;
-
+  margin-left: 2%;
+  border-width: 1px;
   align-items: center;
   align-content: center;
   height: 20px;
   width: 70px;
+  user-select: none;
 }
+.op:hover{
+  background-color:bisque;
+}
+
 .heading {
   font-size: 250%;
 }
